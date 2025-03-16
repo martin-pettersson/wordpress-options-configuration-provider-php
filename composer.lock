@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "92174286ced104bb4b16872a57b31816",
+    "content-hash": "925ad3e30444711022a639036e1a2657",
     "packages": [
         {
             "name": "n7e/configuration",
@@ -106,23 +106,23 @@
         },
         {
             "name": "n7e/configuration-provider",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/martin-pettersson/configuration-provider-php.git",
-                "reference": "b69366dbd8e1484171f2d023fd5e3c3725630563"
+                "reference": "fbb96a40006b183889be57ca5ad9c0c18fbf417e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/martin-pettersson/configuration-provider-php/zipball/b69366dbd8e1484171f2d023fd5e3c3725630563",
-                "reference": "b69366dbd8e1484171f2d023fd5e3c3725630563",
+                "url": "https://api.github.com/repos/martin-pettersson/configuration-provider-php/zipball/fbb96a40006b183889be57ca5ad9c0c18fbf417e",
+                "reference": "fbb96a40006b183889be57ca5ad9c0c18fbf417e",
                 "shasum": ""
             },
             "require": {
                 "n7e/configuration": "^0.2.2",
                 "n7e/configuration-json": "^0.1.1",
                 "n7e/root-directory-aggregate": "^0.1.0",
-                "n7e/service-provider": "^0.1.0",
+                "n7e/service-provider": "^0.2.0",
                 "php": ">=8.3"
             },
             "require-dev": {
@@ -152,9 +152,9 @@
             "description": "A flexible configuration service provider.",
             "support": {
                 "issues": "https://github.com/martin-pettersson/configuration-provider-php/issues",
-                "source": "https://github.com/martin-pettersson/configuration-provider-php/tree/0.1.0"
+                "source": "https://github.com/martin-pettersson/configuration-provider-php/tree/0.2.0"
             },
-            "time": "2025-03-16T21:04:46+00:00"
+            "time": "2025-03-16T22:15:51+00:00"
         },
         {
             "name": "n7e/configuration-wordpress-options",
@@ -300,16 +300,16 @@
         },
         {
             "name": "n7e/service-provider",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/martin-pettersson/service-provider-php.git",
-                "reference": "424a544e06fc78c7548bd758e0821d29377f4770"
+                "reference": "0a9ae46d081322dc1f272a765c9f53f235fbc7eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/martin-pettersson/service-provider-php/zipball/424a544e06fc78c7548bd758e0821d29377f4770",
-                "reference": "424a544e06fc78c7548bd758e0821d29377f4770",
+                "url": "https://api.github.com/repos/martin-pettersson/service-provider-php/zipball/0a9ae46d081322dc1f272a765c9f53f235fbc7eb",
+                "reference": "0a9ae46d081322dc1f272a765c9f53f235fbc7eb",
                 "shasum": ""
             },
             "require": {
@@ -343,9 +343,9 @@
             "description": "A general purpose service provider abstraction.",
             "support": {
                 "issues": "https://github.com/martin-pettersson/service-provider-php/issues",
-                "source": "https://github.com/martin-pettersson/service-provider-php/tree/0.1.0"
+                "source": "https://github.com/martin-pettersson/service-provider-php/tree/0.2.0"
             },
-            "time": "2025-03-13T23:00:08+00:00"
+            "time": "2025-03-16T22:10:32+00:00"
         },
         {
             "name": "psr/container",

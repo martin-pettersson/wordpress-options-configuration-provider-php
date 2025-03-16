@@ -32,8 +32,8 @@
     },
     "require": {
         "php": ">=8.3",
-        "n7e/service-provider": "^0.1.0",
-        "n7e/configuration-provider": "^0.1.0",
+        "n7e/service-provider": "^0.2.0",
+        "n7e/configuration-provider": "^0.2.0",
         "n7e/configuration-wordpress-options": "^0.1.1"
     },
     "require-dev": {
