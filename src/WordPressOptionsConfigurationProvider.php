@@ -35,10 +35,10 @@ final class WordPressOptionsConfigurationProvider implements ServiceProviderInte
         $configuration = $container->get(ConfigurationInterface::class);
 
         /** @var string|null $option */
-        $option = $configuration->get('wordpressOptionConfiguration.option');
+        $option = $configuration->get('wordpressOptionsConfiguration.option');
 
         /** @var string|null $keyPath */
-        $keyPath = $configuration->get('wordpressOptionConfiguration.keyPath');
+        $keyPath = $configuration->get('wordpressOptionsConfiguration.keyPath');
 
         if (is_null($option)) {
             return;

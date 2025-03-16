@@ -66,7 +66,7 @@ final class WordPressOptionsConfigurationProviderTest extends TestCase
         $this->configurationMock
             ->expects($this->exactly(2))
             ->method('get')
-            ->with($this->stringStartsWith('wordpressOptionConfiguration.'))
+            ->with($this->stringStartsWith('wordpressOptionsConfiguration.'))
             ->willReturn(null);
         $this->configurationManagerMock
             ->expects($this->never())
